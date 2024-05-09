@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Teachers:ital,wght@0,400..800;1,400..800&display=swap");
+.recipe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: green;
+  font-family: "Teachers", sans-serif;
+  border: 2px solid gray;
+  width: 350px;
+  height: 400px;
+}
+.recipe-img {
+  border-radius: 20px;
+  padding: 10px;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+}
+.recipe-title {
+  font-family: "Teachers", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  padding: 8px 0;
+}
+.recipe-btn {
+  padding: 5px 10px;
+  font-size: 20px;
+  width: 60%;
+  margin-left: 50px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  margin-top: 20px;
+}

@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Teachers:ital,wght@0,400..800;1,400..800&display=swap");
+.recipe-details-cont {
+  box-shadow: 0px 0px 9px 4px black;
+  display: flex;
+  max-width: 100%;
+  margin: 10px 30px;
+  background: #80808061;
+  background-image: url(../assets/background.jpg);
+  background-size: 100% 100%;
+}
+.recipe-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.recipe-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+p,
+li {
+  font-family: "Teachers", sans-serif;
+  font-weight: bold;
+}
+li {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.details-img {
+  width: 250px;
+  height: 264px;
+  border-radius: 20px;
+}
+ul {
+  list-style: none;
+}
+.recipe-info-img {
+  width: 300px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 0px 0px 9px 4px black;
+}
+.recipe-video {
+  border: 2px solid black;
+  box-shadow: 0px 0px 9px 4px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  padding: 10px;
+}
+.description {
+  display: flex;
+  gap: 30px;
+  padding: 70px 30px 30px 30px;
+  margin: 10px 150px;
+}
+.close-btn {
+  border: 2px solid black;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background: gray;
+  color: white;
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-family: "Teachers", sans-serif;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 750px) {
+  .recipe-details-cont {
+    background-image: none;
+    display: flex;
+    flex-direction: column;
+    min-width: 100%;
+    margin: 0;
+    background: #80808061;
+  }
+  .description {
+    padding: 10px 30px;
+  }
+  .recipe-container {
+    display: flex;
+    flex-direction: column;
+  }
+}

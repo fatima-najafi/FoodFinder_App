@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+* {
+  font-family: "Lobster", sans-serif;
+}
+.recipe_list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 70px;
+  background-color: #7f8733c4;
+  padding-bottom: 30px;
+}
+.app {
+  background-color: #f7e9c6;
+  width: 100%;
+  height: 70px;
+}
+.input-search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60vw;
+  background: #d7d7d7;
+  border: 1px solid rgb(179, 178, 178);
+  position: absolute;
+  overflow: hidden;
+  z-index: 13;
+  border-radius: 5px;
+  height: 8vh;
+  top: 14%;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+  margin: 0px auto;
+}
+.input-search label {
+  display: flex;
+  padding: 0px 8px;
+  align-items: center;
+  background: none;
+}
+.input-search input {
+  width: 80%;
+  border: none;
+  font-size: 16px;
+  color: #211b19;
+  outline: none;
+  padding: 0px;
+  font-size: 24px;
+  background: none;
+}
+.input-search button {
+  border: none;
+  border-left: 1px solid gray;
+  color: #211b19;
+  width: 20vw;
+  cursor: pointer;
+  padding: 0.7em;
+  background: #d7d7d7;
+  font-size: 30px;
+}
+.search-bar {
+  background: none;
+}
+.no-food {
+  padding: 100px;
+  text-align: center;
+  background-color: #7f8733c4;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Lobster", sans-serif;
+}
+@media screen and (max-width: 475px) {
+  .input-search {
+    height: 50px;
+    display: flex;
+    width: 40vw;
+    background: #d7d7d7;
+    width: 95%;
+  }
+  .input-search button {
+    border: none;
+    border-left: 1px solid gray;
+    color: #211b19;
+    width: 10vh;
+    cursor: pointer;
+    background: #d7d7d7;
+    font-size: 12px;
+  }
+  .recipe_list {
+    padding-top: 80px;
+  }
+}
